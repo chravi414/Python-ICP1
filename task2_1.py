@@ -10,7 +10,5 @@ while True:
         text += l
     else:
         break
-print(text)
 result = text[2:]
-print(result)
 print(result[::-1])
