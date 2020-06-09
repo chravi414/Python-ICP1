@@ -1,14 +1,3 @@
-# text = input("Please enter the string: \n")
-# result = text[2:]
-# print(result)
-# print(result[::-1])
-
-text = ""
-while True:
-    l = input()
-    if l:
-        text += l
-    else:
-        break
-result = text[2:]
+text = list(input("Please enter the text: \n"))
+result = "".join(text[2:])
 print(result[::-1])
